@@ -14,16 +14,16 @@ const clickHandler = () => {
              transition={{delay:0.1,ease:"easeOut"}}>
                 <ul className="menu-nav">
                   <motion.li className="nav-links" 
-                   initial={{x:200}}
+                   initial={{x:600}}
                    animate={{x:0}}
                    transition={{delay:0.2,ease:"easeOut"}}><Scroll to= 'about' onClick={clickHandler}   smooth={true} duration={600} offset={-80} ><span id="third">01. </span>About</Scroll></motion.li>
                   <motion.li className="nav-links"
-                   initial={{x:200}}
+                   initial={{x:600}}
                    animate={{x:0}}
                    transition={{delay:0.3,ease:"easeOut"}}
                    ><Scroll to='projects'  onClick={clickHandler}   smooth={true} duration={600} offset={-80}><span id="third">02. </span>Projects</Scroll></motion.li>
                   <motion.li className="nav-links"
-                   initial={{x:200}}
+                   initial={{x:600}}
                    animate={{x:0}}
                    transition={{delay:0.4,ease:"easeOut"}}
                    ><Scroll to='contact'  onClick={clickHandler}  smooth={true} duration={600} offset={-80}><span id="third">03. </span>Contact</Scroll></motion.li>
