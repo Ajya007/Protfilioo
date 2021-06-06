@@ -1,5 +1,6 @@
 
 import {motion} from 'framer-motion'
+import {Link as Scroll} from 'react-scroll'
 function Showcase() {
     return (
         <div className="showcase">
@@ -35,7 +36,11 @@ function Showcase() {
             initial={{y:10,opacity:0}}
             animate={{y:0,opacity:1}}
             transition={{delay:0.96, ease: "easeOut"}}
-            >Get in touch</motion.button>
+            >
+              <Scroll to='contact' smooth={true} duration={600} offset={-80}>
+              Get in touch
+              </Scroll>
+              </motion.button>
         
         </div>
         </div>

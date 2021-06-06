@@ -284,7 +284,8 @@ header h1 {
           align-items: flex-start;
   width: 90%;
   min-height: 100vh;
-  padding-top: 8rem;
+  padding-top: 6rem;
+  padding-left: 3rem;
 }
 
 .showcase-wrapper h3 {
