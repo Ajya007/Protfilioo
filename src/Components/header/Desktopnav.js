@@ -34,7 +34,7 @@ transition={{delay:0.2,ease:"easeOut"}}
 initial={{y:-20,opacity:0}}
 animate={{y:0,opacity:1}}
 transition={{delay:0.3,ease:"easeOut"}}
-><a href="https://drive.google.com/file/d/1kCutOV5aP3ciAzoE-Mh6I-tNCodqicwV/view?usp=sharing" target="_blank"><button className="btn">Resume</button></a></motion.li>
+><a href="https://drive.google.com/file/d/1kCutOV5aP3ciAzoE-Mh6I-tNCodqicwV/view?usp=sharing" target="_blank" rel="noreferrer"><button className="btn">Resume</button></a></motion.li>
 
         </ul>
      </div>

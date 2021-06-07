@@ -13,18 +13,18 @@ function About() {
   const [showAnimation,setShowAnimation] = useState(false);
 
 
+  if(!showAnimation){
+    animation.start({
+      y:50,
+      opacity:0
+    });
+  }
 
 
   useEffect(() => {
 
   
-    if(!showAnimation){
-      animation.start({
-        y:50,
-        opacity:0
-      });
-    }
-
+   
 
       if(inView){
         setShowAnimation(true)
@@ -33,6 +33,7 @@ function About() {
    
         
        }, [inView])
+
        if(showAnimation){
         animation.start({
           y:0,

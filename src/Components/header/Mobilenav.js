@@ -8,32 +8,41 @@ const clickHandler = () => {
     return (
         <>
              <motion.nav
-             layout
-             initial={{x:600}}
+             initial={{x:900}}
              animate={{x:0}}
-             transition={{delay:0.1,ease:"easeOut"}}>
-                <ul className="menu-nav">
+             transition={{delay:0.1,ease:"easeOut",duration:0.1}}
+           >
+
+                <motion.ul className="menu-nav"
+                     initial={{x:600}}
+                     animate={{x:0}}
+                     transition={{delay:0.1,ease:"easeOut",duration:0.7}}>
+
                   <motion.li className="nav-links" 
                    initial={{x:600}}
                    animate={{x:0}}
-                   transition={{delay:0.2,ease:"easeOut"}}><Scroll to= 'about' onClick={clickHandler}   smooth={true} duration={600} offset={-80} ><span id="third">01. </span>About</Scroll></motion.li>
+                   transition={{delay:0.2,ease:"easeOut",duration:0.8}}>
+                   <Scroll to= 'about' onClick={clickHandler}   smooth={true} duration={600} offset={-80} ><span id="third">01. </span>About</Scroll>
+                   </motion.li>
+
                   <motion.li className="nav-links"
                    initial={{x:600}}
                    animate={{x:0}}
-                   transition={{delay:0.3,ease:"easeOut"}}
-                   ><Scroll to='projects'  onClick={clickHandler}   smooth={true} duration={600} offset={-80}><span id="third">02. </span>Projects</Scroll></motion.li>
+                   transition={{delay:0.3,ease:"easeOut",duration:0.8}}>
+                  <Scroll to='projects'  onClick={clickHandler}   smooth={true} duration={600} offset={-80}><span id="third">02. </span>Projects</Scroll>
+                  </motion.li>
                   <motion.li className="nav-links"
                    initial={{x:600}}
                    animate={{x:0}}
-                   transition={{delay:0.4,ease:"easeOut"}}
+                   transition={{delay:0.4,ease:"easeOut",duration:0.9}}
                    ><Scroll to='contact'  onClick={clickHandler}  smooth={true} duration={600} offset={-80}><span id="third">03. </span>Contact</Scroll></motion.li>
                   <motion.li className="nav-links" onClick={clickHandler}
-                   initial={{x:200}}
+                   initial={{x:600}}
                    animate={{x:0}}
-                   transition={{delay:0.5,ease:"easeOut"}}
-                   ><button className="btn"><a href="https://drive.google.com/file/d/1kCutOV5aP3ciAzoE-Mh6I-tNCodqicwV/view?usp=sharing" target="_blank">Resume</a></button></motion.li>
+                   transition={{delay:0.5,ease:"easeOut",duration:1}}
+                   ><button className="btn"><a href="https://drive.google.com/file/d/1kCutOV5aP3ciAzoE-Mh6I-tNCodqicwV/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></button></motion.li>
               
-                </ul>
+                </motion.ul>
               </motion.nav>
             
         </>

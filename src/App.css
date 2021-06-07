@@ -28,10 +28,6 @@ body {
   overflow-x: hidden;
 }
 
-html {
-  background-color: #f9bf8f;
-}
-
 .container {
   max-width: 75em;
   margin: auto;
@@ -160,6 +156,14 @@ html {
   width: 1px;
 }
 
+.header-wrapper {
+  overflow-x: hidden;
+}
+
+.header-container {
+  overflow-x: hidden;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -232,12 +236,9 @@ header h1 {
   height: 100vh;
   width: 70%;
   background-color: #3a2634;
-  overflow: hidden;
   right: 0px;
   top: 0px;
-  z-index: 2;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  z-index: 5;
 }
 
 .menu-nav .nav-links {
@@ -339,7 +340,22 @@ header h1 {
   color: #cf6066;
   font-style: bold;
   font-weight: 700;
-  list-style: square;
+  list-style: none;
+  padding-left: 2rem;
+}
+
+.ul-section li::before {
+  content: "";
+  border-color: transparent #e9e4e4;
+  border-style: solid;
+  border-width: 0.35em 0 0.35rem 0.45rem;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1rem;
+  top: 1rem;
+  position: relative;
+  padding-right: 0.5rem;
 }
 
 .projects-wrapper .main-h1 {
@@ -366,8 +382,6 @@ header h1 {
 }
 
 .box section:hover {
-  -webkit-transform: translateY(-8px);
-          transform: translateY(-8px);
   -webkit-box-shadow: -6px -6px 20px rgba(0, 0, 0, 0.281), 5px 5px 15px rgba(0, 0, 0, 0.349);
           box-shadow: -6px -6px 20px rgba(0, 0, 0, 0.281), 5px 5px 15px rgba(0, 0, 0, 0.349);
 }
@@ -607,17 +621,20 @@ footer p {
 
 #dash-1 {
   position: relative;
+  z-index: 1;
 }
 
 #dash-1::before {
   content: "-";
   position: absolute;
+  z-index: 1;
   -webkit-transform: translate(-6px, -6px);
           transform: translate(-6px, -6px);
 }
 
 #dash-2 {
   position: relative;
+  z-index: 1;
 }
 
 #dash-2::after {
@@ -629,6 +646,7 @@ footer p {
 
 #eyes {
   position: relative;
+  z-index: 1;
 }
 
 #eyes::after {
@@ -642,11 +660,13 @@ footer p {
 
 #curve {
   position: relative;
+  z-index: 1;
 }
 
 #curve::before {
   content: ")";
   position: absolute;
+  z-index: 0;
   -webkit-transform: rotate(35deg);
           transform: rotate(35deg);
   left: -12px;

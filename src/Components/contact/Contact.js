@@ -14,16 +14,18 @@ function Contact() {
 
 
 
+      if(!showAnimation){
+        animation4.start({
+          y:50,
+          opacity:0
+        });
+      }
+
 
       useEffect(() => {
 
      
-        if(!showAnimation){
-          animation4.start({
-            y:50,
-            opacity:0
-          });
-        }
+      
 
           if(inView){
             setShowAnimation(true)
@@ -32,6 +34,8 @@ function Contact() {
 
             
            }, [inView])
+
+
            if(showAnimation){
             animation4.start({
               y:0,

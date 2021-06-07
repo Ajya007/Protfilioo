@@ -15,33 +15,33 @@ function Projects() {
   const animation2 = useAnimation();
   const animation3= useAnimation();
 
-
-  useEffect(() => {
-
-
-    if(!showAnimation){
-      animation0.start({
-        opacity:0
-      });
-      animation1.start({
+  if(!showAnimation){
+    animation0.start({
+      opacity:0
+    });
+    animation1.start({
+      y:30,
+      opacity:0
+       });
+       animation2.start({
         y:30,
         opacity:0
          });
-         animation2.start({
+         animation3.start({
           y:30,
           opacity:0
            });
-           animation3.start({
-            y:30,
-            opacity:0
-             });
-    }
+  }
 
-      if(inView){
+
+  useEffect(() => {
+         if(inView){
         setShowAnimation(true)
       }
  
        }, [inView])
+
+       
        if(showAnimation){
         animation0.start({
           opacity:1,
@@ -51,7 +51,6 @@ function Projects() {
           y:0,
           opacity:1,
           transition:{ease:"easeOut",delay:0.2},
-          whileHover:{ opacity:0}
         });
         animation2.start({
           y:0,
@@ -78,13 +77,15 @@ function Projects() {
         <div className="box">
         <motion.section
         animate={animation1}
-        whileHover={{ y:-10 }}
+        whileHover={{ y:-8}}
          >
           <div className="top">
           <i className="fa fa-folder-open-o fa-2x" aria-hidden="true" style={{color:'rgb(226, 67, 75)'}}></i>
           <div id="top-links">
-          <a href="https://github.com/Ajya007/Frontend-Ninjaa" target="_blank"><i className="fa fa-github fa-2x"></i></a>
-          <a href="https://ajya007.github.io/Frontend-Ninjaa/" target="_blank"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
+          <a href="https://github.com/Ajya007/Frontend-Ninjaa" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x"></i></a>
+          
+          
+          <a href="https://ajya007.github.io/Frontend-Ninjaa/" target="_blank" rel="noreferrer"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
         </div>
         </div>
            <h1 id="white">FrontEnd Ninja</h1>
@@ -98,13 +99,13 @@ function Projects() {
 
         <motion.section
         animate={animation2}
-        whileHover={{ y:-10  }}
+        whileHover={{ y:-8}}
         >
           <div className="top">
           <i className="fa fa-folder-open-o fa-2x" aria-hidden="true"  style={{color:'rgb(226, 67, 75)'}}></i>
           <div id="top-links">
-          <a href="https://github.com/Ajya007/Coffee" target="_blank"><i className="fa fa-github fa-2x"></i></a>
-          <a href="https://ajya007.github.io/Coffee/" target="_blank"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
+          <a href="https://github.com/Ajya007/Coffee" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x"></i></a>
+          <a href="https://ajya007.github.io/Coffee/" target="_blank" rel="noreferrer"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
         </div>
         </div>
         <h1>Coffee Shop Website</h1>
@@ -119,13 +120,13 @@ function Projects() {
 
         <motion.section 
         animate={animation3}
-        whileHover={{ y:-10  }}
+        whileHover={{ y:-8}}
         >
           <div className="top">
           <i className="fa fa-folder-open-o fa-2x"  style={{color:'rgb(226, 67, 75)'}} aria-hidden="true"></i>
           <div id="top-links">
-          <a href="https://github.com/Ajya007/Medical-Website" target="_blank"><i className="fa fa-github fa-2x"></i></a>
-          <a href="https://ajya007.github.io/Medical-Website/#about" target="_blank"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
+          <a href="https://github.com/Ajya007/Medical-Website" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x"></i></a>
+          <a href="https://ajya007.github.io/Medical-Website/#about" target="_blank" rel="noreferrer"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
           </div>
           </div>
             <h1>Medical Website</h1>
@@ -139,13 +140,13 @@ function Projects() {
 
         <motion.section
          animate={animation1}
-         whileHover={{ y:-10 }}
+         whileHover={{ y:-8}}
          >
           <div className="top">
           <i className="fa fa-folder-open-o fa-2x" aria-hidden="true"  style={{color:'rgb(226, 67, 75)'}}></i>
           <div id="top-links">
-          <a href="https://github.com/Ajya007/React-Task-Tracker" target="_blank"><i className="fa fa-github fa-2x"></i></a>
-          <a href="#"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
+          <a href="https://github.com/Ajya007/React-Task-Tracker" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x"></i></a>
+     
         </div>
         </div>
         <h1>React Task-Tracker</h1>
@@ -156,12 +157,12 @@ function Projects() {
        
         <motion.section
          animate={animation2}
-         whileHover={{ y:-10  }}>
-                     <div className="top">
+         whileHover={{ y:-8}}>
+       <div className="top">
           <i className="fa fa-folder-open-o fa-2x" aria-hidden="true"  style={{color:'rgb(226, 67, 75)'}}></i>
           <div id="top-links">
-          <a href="https://github.com/Ajya007/React-API-Image-Gallery" target="_blank"><i className="fa fa-github fa-2x"></i></a>
-          <a href="#"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
+          <a href="https://github.com/Ajya007/React-API-Image-Gallery" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x"></i></a>
+         
         </div>
         </div>
         <h1>React Image-Gallery</h1>
@@ -172,8 +173,10 @@ function Projects() {
          </motion.section>
         <motion.section
          animate={animation3}
-         whileHover={{ y:-10 }}><h1>For More Projects Visit My Github Page</h1>
-          <p><a href="https://github.com/Ajya007" target="_blank" id="third">Click Here</a></p>
+         whileHover={{ y:-8}}
+        ><h1>For More Projects Visit My Github Page</h1>
+          <p>
+          <a href="https://github.com/Ajya007" target="_blank" id="third" rel="noreferrer">Click Here</a></p>
           </motion.section>
         
 
