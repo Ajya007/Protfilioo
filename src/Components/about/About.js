@@ -59,7 +59,7 @@ function About() {
             <p>I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to
               always build products that provide pixel-perfect, performant
               experiences.</p>
-            <p>Shortly after graduating from Henry Ford Intl Collage I joined Cloudfactory as a Data Analyst.Now I am deciding to work as a programmer where I can work on a wide variety
+            <p>After completing bachelor on Bsc.csit. I  decided to work as a programmer where I can work on a wide variety
               of interesting and meaningful projects on a daily basis.</p>
             <p>Here are a few technologies I've been working with recently:</p>
             

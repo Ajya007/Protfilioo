@@ -70,6 +70,27 @@ $fifth-color: #cf6066;
     }
   }
   
+  //hashloader
+
+  .hashitem{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  background-color:  #34222e;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+ .hashloader{
+   position: absolute;
+   top:55%;
+   left:51.5%;
+   transform: translate(-51.5%,-55%);
+   font-size: 1.75rem;
+   color:rgb(226, 67, 75);
+ }
+  }
 
   //Icons
 
@@ -535,6 +556,7 @@ footer {
   transform: rotate(-45deg);
   left:7px;
   top:-4px;
+  color:$third-color;
 
   }}
 
@@ -548,6 +570,7 @@ footer {
       transform: rotate(35deg);
       left:-12px;
       top:0px;
+      color:$third-color;
 
   }}
 
