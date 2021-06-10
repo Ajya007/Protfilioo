@@ -85,7 +85,7 @@ function Projects() {
           <a href="https://github.com/Ajya007/Frontend-Ninjaa" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x"></i></a>
           
           
-          <a href="https://ajya007.github.io/Frontend-Ninjaa/" target="_blank" rel="noreferrer"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
+        
         </div>
         </div>
            <h1 id="white">FrontEnd Ninja</h1>
@@ -105,7 +105,7 @@ function Projects() {
           <i className="fa fa-folder-open-o fa-2x" aria-hidden="true"  style={{color:'rgb(226, 67, 75)'}}></i>
           <div id="top-links">
           <a href="https://github.com/Ajya007/Coffee" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x"></i></a>
-          <a href="https://ajya007.github.io/Coffee/" target="_blank" rel="noreferrer"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
+         
         </div>
         </div>
         <h1>Coffee Shop Website</h1>
@@ -126,7 +126,7 @@ function Projects() {
           <i className="fa fa-folder-open-o fa-2x"  style={{color:'rgb(226, 67, 75)'}} aria-hidden="true"></i>
           <div id="top-links">
           <a href="https://github.com/Ajya007/Medical-Website" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x"></i></a>
-          <a href="https://ajya007.github.io/Medical-Website/#about" target="_blank" rel="noreferrer"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
+         
           </div>
           </div>
             <h1>Medical Website</h1>
