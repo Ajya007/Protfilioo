@@ -43,6 +43,9 @@ $third-color: rgb(226, 67, 75);
 $fourth-color: #f9bf8f;
 $fifth-color: #cf6066;
 
+
+
+
 @mixin easeOut {
   transition: all 0.3s ease-out;
 }
@@ -80,16 +83,10 @@ $fifth-color: #cf6066;
  display: flex;
  justify-content: center;
  align-items: center;
+ text-align: center;
 
 
- .hashloader{
-   position: absolute;
-   top:55%;
-   left:51.5%;
-   transform: translate(-51.5%,-55%);
-   font-size: 1.75rem;
-   color:rgb(226, 67, 75);
- }
+
   }
 
   //Icons
@@ -180,7 +177,7 @@ $fifth-color: #cf6066;
       width: 100%;
       justify-content: space-between;
       align-items: center;
-      height: 12vh;
+      min-height: 5rem;
       top:0;
       left: 0;
       z-index: 5;

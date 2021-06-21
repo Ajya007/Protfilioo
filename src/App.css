@@ -74,16 +74,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.hashitem .hashloader {
-  position: absolute;
-  top: 55%;
-  left: 51.5%;
-  -webkit-transform: translate(-51.5%, -55%);
-          transform: translate(-51.5%, -55%);
-  font-size: 1.75rem;
-  color: #e2434b;
+  text-align: center;
 }
 
 .icons {
@@ -201,7 +192,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 12vh;
+  min-height: 5rem;
   top: 0;
   left: 0;
   z-index: 5;

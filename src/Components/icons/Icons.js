@@ -38,7 +38,7 @@ function Icons() {
        animate={{opacity:1}}
        transition={{delay:1.2,ease: "easeOut",duration:2}}
       >
-        <a href="https://gmail.com/">ajaygubhaju223@gmail.com</a>
+        <a href="https://gmail.com/" target="_blank" rel="noreferrer">ajaygubhaju223@gmail.com</a>
         <span id="line"></span>
       </motion.div>
 
