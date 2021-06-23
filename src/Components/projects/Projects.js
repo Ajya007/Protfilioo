@@ -45,7 +45,8 @@ function Projects() {
               <li>Html</li>
               <li>Css</li>
               <li>Javascript</li>
-              <li>Aos</li>
+              <li>React</li>
+            
             </ul>
             <div className="clickable-link1">
             <a href="https://github.com/Ajya007/React-Breakin-Bad-Api" target="_blank" rel="noreferrer"><i className="fa fa-github "></i></a>
