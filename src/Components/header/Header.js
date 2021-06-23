@@ -20,6 +20,11 @@ const Header = () =>  {
 
 useEffect(() => {
   window.addEventListener('scroll',changeNav)
+  
+  return () =>{
+    window.removeEventListener('scroll',changeNav)
+  }
+
 }, [])
 
 

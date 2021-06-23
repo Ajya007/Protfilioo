@@ -41,6 +41,10 @@ function Showcase() {
               Get in touch
               </Scroll>
               </motion.button>
+
+
+    
+  
         
         </div>
         </div>

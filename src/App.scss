@@ -164,13 +164,8 @@ $fifth-color: #cf6066;
     width: 1px;
   }
 }
-  //Header section Styling
-  .header-wrapper{
-    overflow-x: hidden;
-  }
-  .header-container{
-    overflow-x: hidden;
-  }
+
+
 
   header{
       display: flex;
@@ -268,6 +263,8 @@ $fifth-color: #cf6066;
 }
 
 .showcase-wrapper {
+  position: relative;
+  z-index: 1;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -367,7 +364,6 @@ $fifth-color: #cf6066;
     height: 300px;
     @include easeOut;
     &:hover {
-
       box-shadow: -6px -6px 20px rgba(0, 0, 0, 0.281),
         5px 5px 15px rgba(0, 0, 0, 0.349);
     }
@@ -407,7 +403,153 @@ $fifth-color: #cf6066;
     }
   }
 
+  .featured-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+  }
+  .featured{
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   gap: 1.5rem;
+    position: relative;
+    z-index: 2;
+    width: 50%;
+    min-height: 400px;
+    h1{
+      text-align: right;
+    }
+    p{
+      background-color: #3f2436;
+      padding: 2rem;
+      position: relative;
+      z-index: 2;
+    }
+    ul{
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+      li{
+        list-style: none;
+      }
+    }
+  }
+  .external-link::before{
+    content:"";
+    
+    background-image: url(./img/budget.png);
 
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%; 
+
+    display: block;
+    width: 100%;
+    transform: translateX(-90%);
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;  
+  }
+
+  .clickable-link{
+    display: flex;
+    justify-content: flex-end;
+    gap:1rem;
+    a{
+      text-decoration: none;
+      font-size: 1.5rem;
+      color:$secondary-color;
+      &:hover{
+        color:$fifth-color;
+
+      }
+     
+    }
+  }
+
+
+
+
+//featured project 2
+
+
+.featured-wrapper1{
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px;
+}
+.featured1{
+
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ gap: 1.5rem;
+  position: relative;
+  z-index: 2;
+  width: 50%;
+  min-height: 400px;
+  h1{
+    text-align: left;
+  }
+  p{
+    background-color: #3f2436;
+    padding: 2rem;
+    position: relative;
+    z-index: 2;
+  }
+  ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    li{
+      list-style: none;
+    }
+  }
+}
+.external-link1::before{
+  content:"";
+  
+  background-image: url(./img/breaking.png);
+
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: 100% 100%; 
+
+  display: block;
+  width: 100%;
+  transform: translateX(90%);
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  bottom: 0;  
+}
+
+.clickable-link1{
+  display: flex;
+  justify-content: flex-start;
+  gap:1rem;
+  a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:$secondary-color;
+    &:hover{
+      color:$fifth-color;
+
+    }
+   
+  }
+}
+
+
+
+
+
+  
   //Contact secttion
 
   
@@ -685,8 +827,141 @@ footer {
 }
 
 
-    
+    //featured wrapper
 
+    .featured-wrapper{
+      display: flex;
+      justify-content: flex-end;
+      padding: 50px;
+    
+    }
+    .featured{
+      background-color: #3f2436;
+      padding:0 2rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+     justify-content: center;
+     gap: 1.5rem;
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      min-height: 400px;
+      &::after{
+       
+          content:"";
+          position: absolute;
+          width: 100%;
+          top:0;
+          left:0;
+          bottom: 0;
+        background-image: url(./img/budget.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+      }
+      h1{
+        text-align: left;
+        position: relative;
+        z-index: 2;
+      }
+      p{
+        background-color:transparent;
+        padding: 0rem;
+        position: relative;
+        z-index: 2;
+      }
+      ul{
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: flex-start;
+     
+      
+      }
+    }
+    .external-link::before{
+      content:"";
+      width: 0;
+
+    }
+  
+    .clickable-link{
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: flex-start;
+    
+    }
+
+    //featured 2
+
+    .featured-wrapper1{
+      display: flex;
+      justify-content: flex-end;
+      padding: 50px;
+    
+    }
+    .featured1{
+      background-color: #3f2436;
+      padding:0 2rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+     justify-content: center;
+     gap: 1.5rem;
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      min-height: 400px;
+      &::after{
+       
+          content:"";
+          position: absolute;
+          width: 100%;
+          top:0;
+          left:0;
+          bottom: 0;
+        background-image: url(./img/breaking.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+      }
+      h1{
+        text-align: left;
+        position: relative;
+        z-index: 2;
+      }
+      p{
+        background-color:transparent;
+        padding: 0rem;
+        position: relative;
+        z-index: 2;
+      }
+      ul{
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: flex-start;
+     
+      
+      }
+    }
+    .external-link1::before{
+      content:"";
+      width: 0;
+
+    }
+  
+    .clickable-link1{
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: flex-start;
+    
+    }
 
 
 

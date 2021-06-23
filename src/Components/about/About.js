@@ -1,56 +1,26 @@
-
-import {useInView} from 'react-intersection-observer'
-import {useEffect, useState} from 'react'
-import { useAnimation } from 'framer-motion';
-import {motion} from 'framer-motion'
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import image from '../../img/profile.jpg'
 
 function About() {
 
-  const {ref,inView}=useInView({
-    threshold:0.5
-  });
-  const animation = useAnimation();
-  const [showAnimation,setShowAnimation] = useState(false);
-
-
-  if(!showAnimation){
-    animation.start({
-      y:50,
-      opacity:0
-    });
-  }
-
-
-  useEffect(() => {
-
-  
-   
-
-      if(inView){
-        setShowAnimation(true)
- 
-      }
-   
-        
-       }, [inView])
-
-       if(showAnimation){
-        animation.start({
-          y:0,
-          opacity:1,
-          transition:{ease:"easeOut",duration:1}
-        });
-      }
+    useEffect(() => {
+      Aos.init({
+        once:true,
+        easing:'ease-out'
+      });
+     }, [])
 
 
      
     return (
         <div className="about" id="about">
          <div className="container">
-          <div className="about-wrapper" ref={ref}>
+          <div className="about-wrapper">
          
-          <motion.section 
-            animate={animation}
+          <section 
+            data-aos="fade-up"  data-aos-duration="1000"
             >
           
             <h1 id="white"><span id="third">01.</span> About Me</h1>
@@ -76,13 +46,14 @@ function About() {
               </div>
             </ul>
           </div>
-          </motion.section>
+          </section>
           
-          <motion.section
-          animate={animation}
+          <section
+
+data-aos="fade-up"  data-aos-duration="1000"
           >
-            <img src="https://lh3.googleusercontent.com/pw/ACtC-3eCtOGoUZNhcOKKd3ND-zH30gORu3rL28Ae8vx5_JrvqMEIKwHap9HPTdWEStsayVjAFWkH5FvznQ1qgXh1CkcA8G_NuK4Q7MQeADDLYvNZOPB125Fun8aDGdSga2_toh0_ZAwNh9_CwU-Bam22SNYt=s350-no?authuser=0" alt="profile" />
-          </motion.section>
+            <img src={image} alt="profile" />
+          </section>
 
 
         </div>
@@ -95,4 +66,3 @@ function About() {
 }
 
 export default About
- 
