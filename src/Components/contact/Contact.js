@@ -30,7 +30,7 @@ function Contact() {
         <div className="contacts" id="contact">
          <div className="container">
              <div className="dark"
-              data-aos="fade-in"  data-aos-duration="1000" data-aos-delay="400"> 
+              data-aos="fade-in"  data-aos-duration="600" data-aos-delay="400"> 
 
           <h1 id="white">Get in touch</h1>
             <span id="line"></span>

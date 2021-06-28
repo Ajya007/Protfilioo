@@ -20,7 +20,7 @@ function About() {
           <div className="about-wrapper">
          
           <section 
-            data-aos="fade-up"  data-aos-duration="1000"
+            data-aos="fade-up"  data-aos-duration="600"
             >
           
             <h1 id="white"><span id="third">01.</span> About Me</h1>

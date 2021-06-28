@@ -472,6 +472,150 @@ $fifth-color: #cf6066;
   }
 
 
+  //featured project 0
+
+  
+  .featured-wrapper0{
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+  }
+  .featured0{
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   gap: 1.5rem;
+    position: relative;
+    z-index: 2;
+    width: 50%;
+    min-height: 400px;
+    h1{
+      text-align: right;
+    }
+    p{
+      background-color: #3f2436;
+      padding: 2rem;
+      position: relative;
+      z-index: 2;
+    }
+    ul{
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+      li{
+        list-style: none;
+      }
+    }
+  }
+  .external-link0::before{
+    content:"";
+    
+    background-image: url(./img/task-tracker.png);
+
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%; 
+
+    display: block;
+    width: 100%;
+    transform: translateX(-90%);
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;  
+  }
+
+  .clickable-link0{
+    display: flex;
+    justify-content: flex-end;
+    gap:1rem;
+    a{
+      text-decoration: none;
+      font-size: 1.5rem;
+      color:$secondary-color;
+      &:hover{
+        color:$fifth-color;
+
+      }
+     
+    }
+  }
+
+//featired project 1
+
+
+
+  .featured-wrapper1{
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+  }
+  .featured1{
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   gap: 1.5rem;
+    position: relative;
+    z-index: 2;
+    width: 50%;
+    min-height: 400px;
+    h1{
+      text-align: right;
+    }
+    p{
+      background-color: #3f2436;
+      padding: 2rem;
+      position: relative;
+      z-index: 2;
+    }
+    ul{
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+      li{
+        list-style: none;
+      }
+    }
+  }
+  .external-link1::before{
+    content:"";
+    
+    background-image: url(./img/budget.png);
+
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%; 
+
+    display: block;
+    width: 100%;
+    transform: translateX(-90%);
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;  
+  }
+
+  .clickable-link1{
+    display: flex;
+    justify-content: flex-end;
+    gap:1rem;
+    a{
+      text-decoration: none;
+      font-size: 1.5rem;
+      color:$secondary-color;
+      &:hover{
+        color:$fifth-color;
+
+      }
+     
+    }
+  }
+
+
 
 
 //featured project 2
@@ -956,6 +1100,75 @@ footer {
     }
   
     .clickable-link1{
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: flex-start;
+    
+    }
+
+    //featured 0
+
+    
+    .featured-wrapper0{
+      display: flex;
+      justify-content: flex-end;
+      padding: 50px;
+    
+    }
+    .featured0{
+      background-color: #3f2436;
+      padding:0 2rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+     justify-content: center;
+     gap: 1.5rem;
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      min-height: 400px;
+      &::after{
+       
+          content:"";
+          position: absolute;
+          width: 100%;
+          top:0;
+          left:0;
+          bottom: 0;
+        background-image: url(./img/task-tracker.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+      }
+      h1{
+        text-align: left;
+        position: relative;
+        z-index: 2;
+      }
+      p{
+        background-color:transparent;
+        padding: 0rem;
+        position: relative;
+        z-index: 2;
+      }
+      ul{
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: flex-start;
+     
+      
+      }
+    }
+    .external-link0::before{
+      content:"";
+      width: 0;
+
+    }
+  
+    .clickable-link0{
       position: relative;
       z-index: 2;
       display: flex;

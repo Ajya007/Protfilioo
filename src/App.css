@@ -536,6 +536,188 @@ header h1 {
   color: #cf6066;
 }
 
+.featured-wrapper0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 50px;
+}
+
+.featured0 {
+  padding-right: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.5rem;
+  position: relative;
+  z-index: 2;
+  width: 50%;
+  min-height: 400px;
+}
+
+.featured0 h1 {
+  text-align: right;
+}
+
+.featured0 p {
+  background-color: #3f2436;
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.featured0 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 1rem;
+}
+
+.featured0 ul li {
+  list-style: none;
+}
+
+.external-link0::before {
+  content: "";
+  background-image: url(./img/task-tracker.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  width: 100%;
+  -webkit-transform: translateX(-90%);
+          transform: translateX(-90%);
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.clickable-link0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 1rem;
+}
+
+.clickable-link0 a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fdfcfbd3;
+}
+
+.clickable-link0 a:hover {
+  color: #cf6066;
+}
+
+.featured-wrapper1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 50px;
+}
+
+.featured1 {
+  padding-right: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.5rem;
+  position: relative;
+  z-index: 2;
+  width: 50%;
+  min-height: 400px;
+}
+
+.featured1 h1 {
+  text-align: right;
+}
+
+.featured1 p {
+  background-color: #3f2436;
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.featured1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 1rem;
+}
+
+.featured1 ul li {
+  list-style: none;
+}
+
+.external-link1::before {
+  content: "";
+  background-image: url(./img/budget.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  width: 100%;
+  -webkit-transform: translateX(-90%);
+          transform: translateX(-90%);
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.clickable-link1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 1rem;
+}
+
+.clickable-link1 a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fdfcfbd3;
+}
+
+.clickable-link1 a:hover {
+  color: #cf6066;
+}
+
 .featured-wrapper1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1105,6 +1287,83 @@ footer p {
     width: 0;
   }
   .clickable-link1 {
+    position: relative;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .featured-wrapper0 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 50px;
+  }
+  .featured0 {
+    background-color: #3f2436;
+    padding: 0 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1.5rem;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    min-height: 400px;
+  }
+  .featured0::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url(./img/task-tracker.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+  }
+  .featured0 h1 {
+    text-align: left;
+    position: relative;
+    z-index: 2;
+  }
+  .featured0 p {
+    background-color: transparent;
+    padding: 0rem;
+    position: relative;
+    z-index: 2;
+  }
+  .featured0 ul {
+    position: relative;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .external-link0::before {
+    content: "";
+    width: 0;
+  }
+  .clickable-link0 {
     position: relative;
     z-index: 2;
     display: -webkit-box;

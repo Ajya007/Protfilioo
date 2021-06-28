@@ -15,29 +15,29 @@ function Projects() {
           <div className="projects-wrapper">
 
         <h1 id="white" className="main-h1"
-        data-aos="fade-up"  data-aos-duration="1000" ><span id="third">02.</span>Some Of My Projects</h1>
+        data-aos="fade-up"  data-aos-duration="400" ><span id="third">02.</span>Some Of My Projects</h1>
 
-      <div className="featured-wrapper" data-aos="fade-up"  data-aos-duration="1000"> 
-          <div className="featured">
-            <h1>Budget App</h1>
-            <p>This is a react budget app where you can add your income and expense.It will track both of your income and expense and gives you the total budget you have left.It also shows your transaction histoy where you can delete your transaction if its a mistake.</p>
+      <div className="featured-wrapper0" data-aos="fade-up"  data-aos-duration="400"> 
+          <div className="featured0">
+            <h1>MERN Task-Tracker App</h1>
+            <p>This is a MERN stack  app where you can add add and delete task.You can also change reminder by double clicking the task.</p>
             <ul>
-              <li>Html</li>
-              <li>Css</li>
-              <li>Javascript</li>
+              <li>MongoDB</li>
+              <li>Express</li>
               <li>React</li>
+              <li>Node</li>
             </ul>
-            <div className="clickable-link">
-              <a href="https://github.com/Ajya007/React-Expense-Tracker" target="_blank" rel="noreferrer"><i className="fa fa-github "></i></a>
+            <div className="clickable-link0">
+              <a href="https://github.com/Ajya007/Task-Tracker-Api" target="_blank" rel="noreferrer"><i className="fa fa-github "></i></a>
              {/*eslint-disable */}
-              <a href="https://react-budgettrackerr.netlify.app/" target="_blank" rel="noreferrer" className='external-link'><i className="fa fa-link " aria-hidden="true"></i></a>
+              <a href="https://mern-task-trackerr.netlify.app/" target="_blank" rel="noreferrer" className='external-link0'><i className="fa fa-link " aria-hidden="true"></i></a>
              {/*eslint-enable */}
             </div>
 
           </div>
           </div>
 
-          <div className="featured-wrapper1" data-aos="fade-up"  data-aos-duration="1000">
+          <div className="featured-wrapper1" data-aos="fade-up"  data-aos-duration="400">
           <div className="featured1">
             <h1>Breaking Bad App</h1>
             <p>This is a react Breaking Bad app where you can see all the character and detail of the character from Breaking Bad series.All the data are fetched for free Breakingbad Api.You can also search for the character by name in searchbox.</p>
@@ -57,11 +57,35 @@ function Projects() {
 
           </div>
           </div>
+
+
+        
+      <div className="featured-wrapper" data-aos="fade-up"  data-aos-duration="400"> 
+          <div className="featured">
+            <h1>Budget App</h1>
+            <p>This is a react budget app where you can add your income and expense.It will track both of your income and expense and gives you the total budget you have left.It also shows your transaction histoy where you can delete your transaction if its a mistake.All the data are stored in localstorage so  you you can edit and remove data anytime you want from you device.</p>
+            <ul>
+              <li>Html</li>
+              <li>Css</li>
+              <li>Javascript</li>
+              <li>React</li>
+            </ul>
+            <div className="clickable-link">
+              <a href="https://github.com/Ajya007/React-Expense-Tracker" target="_blank" rel="noreferrer"><i className="fa fa-github "></i></a>
+             {/*eslint-disable */}
+              <a href="https://react-budgettrackerr.netlify.app/" target="_blank" rel="noreferrer" className='external-link'><i className="fa fa-link " aria-hidden="true"></i></a>
+             {/*eslint-enable */}
+            </div>
+
+          </div>
+          </div>
+
+
      
         <div className="box">
         <section 
    data-aos="fade-up" 
-   data-aos-duration="800"
+   data-aos-duration="600"
    data-aso-delay="50"
 
 
@@ -87,7 +111,7 @@ function Projects() {
 
         <section
        data-aos="fade-up" 
-       data-aos-duration="900"
+       data-aos-duration="700"
        data-aso-delay="60"
       
         >
@@ -112,7 +136,7 @@ function Projects() {
 
         <section 
         data-aos="fade-up" 
-        data-aos-duration="1000"
+        data-aos-duration="800"
         data-aso-delay="70"
        
         >
@@ -134,34 +158,20 @@ function Projects() {
                  </ul>
         </section>
 
-        <section
-     data-aos="fade-up" 
-     data-aos-duration="800"
-     data-aso-delay="50"
-  
-         >
-          <div className="top">
-          <i className="fa fa-folder-open-o fa-2x" aria-hidden="true"  style={{color:'rgb(226, 67, 75)'}}></i>
-          <div id="top-links">
-          <a href="https://github.com/Ajya007/React-Task-Tracker" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x"></i></a>
-     
-        </div>
-        </div>
-        <h1>React Task-Tracker</h1>
-        <p> This is a task tracker app where you and add remove and edit the task on local server api</p>
-        <p>To run it first download the file from github</p>
-        <p>Use <span id='third'>npm run server</span> to run the api server  and then <span id='third'>npm start </span> to run the application</p>
-      </section>
-       
+
         <section
          data-aos="fade-up" 
-         data-aos-duration="900"
-         data-aso-delay="60"
+         data-aos-duration="600"
+         data-aso-delay="50"
       >
        <div className="top">
           <i className="fa fa-folder-open-o fa-2x" aria-hidden="true"  style={{color:'rgb(226, 67, 75)'}}></i>
+          
           <div id="top-links">
           <a href="https://github.com/Ajya007/React-API-Image-Gallery" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x"></i></a>
+           {/*eslint-disable */}
+           <a href="https://react-firegraam-imagegallery.netlify.app/" target="_blank" rel="noreferrer"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
+          {/*eslint-enable */}
          
         </div>
         </div>
@@ -171,9 +181,24 @@ function Projects() {
       
            
          </section>
+
+        <section
+     data-aos="fade-up" 
+     data-aos-duration="700"
+     data-aso-delay="60"
+  
+         >
+          <div className="top">
+        
+        </div>
+        <h1>Coming Soon....</h1>
+       
+      </section>
+       
+   
         <section
          data-aos="fade-up" 
-         data-aos-duration="1000"
+         data-aos-duration="800"
          data-aso-delay="70"
       ><h1>For More Projects Visit My Github Page</h1>
           <p>
