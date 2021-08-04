@@ -24,7 +24,7 @@ function Showcase() {
                   initial={{y:30,opacity:0}}
                   animate={{y:0,opacity:1}}
                   transition={{delay:0.8,ease: "easeOut"}}
-                >I BUILT THINGS FOR WEB.</motion.h1>
+                >I BUILD THINGS FOR WEB.</motion.h1>
                 <motion.p
                   initial={{y:30,opacity:0}}
                   animate={{y:0,opacity:1}}
