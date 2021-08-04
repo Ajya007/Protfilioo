@@ -40,7 +40,7 @@ const clickHandler = () => {
                    initial={{x:600}}
                    animate={{x:0}}
                    transition={{delay:0.5,ease:"easeOut",duration:1}}
-                   ><button className="btn"><a href="https://drive.google.com/file/d/1kCutOV5aP3ciAzoE-Mh6I-tNCodqicwV/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></button></motion.li>
+                   ><button className="btn"><a href="https://docs.google.com/document/d/1f2ZF2OphxByRxYa2XN-n_uSNeWPbec7j-a9xJ36XfP4/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a></button></motion.li>
               
                 </motion.ul>
               </motion.nav>
