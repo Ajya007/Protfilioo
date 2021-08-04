@@ -93,15 +93,15 @@ function Projects() {
           <div className="top">
           <i className="fa fa-folder-open-o fa-2x" aria-hidden="true" style={{color:'rgb(226, 67, 75)'}}></i>
           <div id="top-links">
-          <a href="https://github.com/Ajya007/Frontend-Ninjaa" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x"></i></a>
+          <a href="https://github.com/Ajya007/FrontendMentor-Challange1" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x"></i></a>
           
            {/*eslint-disable */}
-          <a href="https://ajya007.github.io/Frontend-Ninjaa/" target="_blank" rel="noreferrer"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
+          <a href="https://objective-lovelace-21e62e.netlify.app/" target="_blank" rel="noreferrer"><i className="fa fa-link fa-2x" aria-hidden="true"></i></a>
            {/*eslint-enable */}
         </div>
         </div>
-           <h1 id="white">FrontEnd Ninja</h1>
-           <p>This is a simple static website.To visit click the link above</p>
+           <h1 id="white">FrontEnd Mentor Challange</h1>
+           <p>This site is made by converting jpeg downloaded from FrontEnd Mentor.</p>
               <ul>
                <li>HTML</li>
                <li>S(CSS)</li>
