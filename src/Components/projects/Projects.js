@@ -125,7 +125,7 @@ function Projects() {
         </div>
         </div>
         <h1>Coffee Shop Website</h1>
-        <p> This is a simple static website.To visit click the link above</p>
+        <p> This is a simple static website.This site is only suitable to mobile and desktop.Tablet version is not supported.To visit click the link above</p>
         <ul>
           <li>HTML</li>
           <li>S(CSS)</li>
@@ -150,7 +150,7 @@ function Projects() {
           </div>
           </div>
             <h1>Medical Website</h1>
-            <p> This is a simple static  medical website.To visit click the link above</p>
+            <p> This is a simple static  medical website.This site is only suitable to mobile and desktop.Tablet version is not supported.To visit click the link above</p>
               <ul>
                <li>HTML</li>
                 <li>S(CSS)</li>
