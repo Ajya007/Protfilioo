@@ -43,7 +43,7 @@ body {
 
 .btn {
   letter-spacing: 0.1rem;
-  font-size: 14px;
+  font-size: 0.875rem;
   height: 38px;
   border: 1px solid #e2434b;
   padding: 0 25px;
@@ -385,7 +385,7 @@ header h1 {
 }
 
 .box section {
-  padding: 40px 30px;
+  padding: 2.5rem 2rem;
   background: #3f2436;
   height: 300px;
   -webkit-transition: all 0.3s ease-out;
@@ -452,11 +452,11 @@ header h1 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding: 50px;
+  padding: 3.125rem;
 }
 
 .featured {
-  padding-right: 25px;
+  padding-right: 1.5625rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -471,7 +471,7 @@ header h1 {
   position: relative;
   z-index: 2;
   width: 50%;
-  min-height: 400px;
+  min-height: 25rem;
 }
 
 .featured h1 {
@@ -1052,7 +1052,7 @@ footer p {
 @media screen and (max-width: 768px) {
   .container {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 1rem;
   }
   .desktop-nav {
     display: none;
@@ -1149,7 +1149,8 @@ footer p {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    padding: 50px;
+    padding: 0px;
+    background-color: crimson;
   }
   .featured {
     background-color: #3f2436;
@@ -1226,7 +1227,7 @@ footer p {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    padding: 50px;
+    padding: 0px;
   }
   .featured1 {
     background-color: #3f2436;
@@ -1303,7 +1304,7 @@ footer p {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    padding: 50px;
+    padding: 0px;
   }
   .featured0 {
     background-color: #3f2436;
@@ -1372,6 +1373,49 @@ footer p {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+  }
+}
+
+@media only screen and (min-width: 469px) and (max-width: 767px) {
+  .about-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5rem;
+    padding: 0rem 0;
+  }
+  .about-wrapper h1 {
+    margin-top: 4rem;
+    font-size: 2rem;
+  }
+  .about-wrapper p {
+    font-size: 1.2rem;
+    padding: 10px 0;
+  }
+  .ul-section {
+    text-align: center;
+  }
+  .ul-section ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ul-section li {
+    text-align: left;
   }
 }
 /*# sourceMappingURL=App.css.map */

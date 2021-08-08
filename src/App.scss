@@ -58,7 +58,7 @@ $fifth-color: #cf6066;
 
 .btn {
     letter-spacing: 0.1rem;
-    font-size: 14px;
+    font-size: 0.875rem;
     height: 38px;
     border: 1px solid $third-color;
     padding: 0 25px;
@@ -359,7 +359,8 @@ $fifth-color: #cf6066;
   }
 
   .box section {
-    padding: 40px 30px;
+    
+    padding: 2.5rem 2rem;
     background: #3f2436;
     height: 300px;
     @include easeOut;
@@ -404,12 +405,14 @@ $fifth-color: #cf6066;
   }
 
   .featured-wrapper{
+    
     display: flex;
     justify-content: flex-end;
-    padding: 50px;
+    padding: 3.125rem;
   }
   .featured{
-    padding-right: 25px;
+    
+    padding-right: 1.5625rem;
     display: flex;
     flex-direction: column;
    justify-content: center;
@@ -417,7 +420,7 @@ $fifth-color: #cf6066;
     position: relative;
     z-index: 2;
     width: 50%;
-    min-height: 400px;
+    min-height: 25rem;
     h1{
       text-align: right;
     }
@@ -862,7 +865,7 @@ footer {
   @media screen and (max-width:768px){
     .container{
       width: 100%;
-      padding:0 20px ;
+      padding:0 1rem ;
     }
  
 .desktop-nav{
@@ -976,7 +979,8 @@ footer {
     .featured-wrapper{
       display: flex;
       justify-content: flex-end;
-      padding: 50px;
+      padding: 0px;
+      background-color: crimson;
     
     }
     .featured{
@@ -1044,7 +1048,7 @@ footer {
     .featured-wrapper1{
       display: flex;
       justify-content: flex-end;
-      padding: 50px;
+      padding: 0px;
     
     }
     .featured1{
@@ -1113,7 +1117,7 @@ footer {
     .featured-wrapper0{
       display: flex;
       justify-content: flex-end;
-      padding: 50px;
+      padding: 0px;
     
     }
     .featured0{
@@ -1177,5 +1181,49 @@ footer {
     }
 
 
+
+  }
+
+
+
+  //tablets
+
+
+  @media only screen and (min-width: 469px) and (max-width: 767px) {
+
+    .about-wrapper{
+     
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      gap: 5rem;
+      padding:0rem 0;
+      h1 {
+        margin-top: 4rem;
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.2rem;
+        padding:10px 0;
+      }
+    
+    }
+    
+    .ul-section{
+      text-align: center;
+    
+     
+        ul{
+          display: flex;
+          justify-content: center;
+    
+        }
+        li{
+          text-align: left;
+        }
+      }
+      
 
   }
