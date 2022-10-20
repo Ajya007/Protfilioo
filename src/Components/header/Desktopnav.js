@@ -34,7 +34,7 @@ transition={{delay:0.2,ease:"easeOut"}}
 initial={{y:-20,opacity:0}}
 animate={{y:0,opacity:1}}
 transition={{delay:0.3,ease:"easeOut"}}
-><a href="https://docs.google.com/document/d/1f2ZF2OphxByRxYa2XN-n_uSNeWPbec7j-a9xJ36XfP4/edit?usp=sharing" target="_blank" rel="noreferrer"><button className="btn">Resume</button></a></motion.li>
+><a href="https://docs.google.com/document/d/1galsRYGMoUSIWUklUhMSCXHoJbkIhYcM-jukfkixoEQ/edit?usp=sharing" target="_blank" rel="noreferrer"><button className="btn">Resume</button></a></motion.li>
 
         </ul>
      </div>
